@@ -318,9 +318,12 @@ footer{
         width: 100%;
         margin: 0;
     }
+    .feature-img{
+        align-items: center;
+    }
     .ten-years-badge{
         position: static;
-        width: 320px;
+        width: 88%;
     }
 
 
