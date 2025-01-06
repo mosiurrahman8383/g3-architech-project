@@ -93,7 +93,7 @@ nav li {
 
 main {
     max-width: 1150px;
-    margin: 3rem auto;
+    margin: 3rem auto 0 auto;
 }
 
 /* teams section style */
@@ -188,6 +188,17 @@ main {
     width: 165px;
 }
 
+/* footer section style */
+
+footer{
+    text-align: center;
+    background-color: #FFF4E7;
+    max-width: 1090px;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
 
 
 /* responsive media quaries */
@@ -207,13 +218,6 @@ main {
 
     .btn-primary {
         padding: 15px 20px;
-        background-color: #FF900E;
-        color: #FFFFFF;
-        border: 0;
-        border-radius: 8px;
-        font-weight: 500;
-        font-size: 1rem;
-        cursor: pointer;
     }
     
 
@@ -249,6 +253,11 @@ main {
 
     .sponsor-img-container{
         flex-direction: column;
+        margin: 0;
+    }
+    footer{
+        margin: 0 20px;
+        padding: 5px;
     }
 }
 
@@ -284,7 +293,11 @@ main {
     .sponsor-img-container{
         display: grid;
         grid-template-columns: repeat(3,1fr) ;
-        padding: 50px;
-        /* justify-content: space-between; */
+        padding-top: 50px;
+        margin: 0;
+    }
+    footer{
+        margin: 0 20px;
+        padding: 5px;
     }
 }
