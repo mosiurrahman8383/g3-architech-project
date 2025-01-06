@@ -367,7 +367,8 @@ footer{
 
     .feature{
         flex-direction: column;
-        padding: 50px;
+        padding: 50px 50px 0 50px;
+        margin-bottom: 0;
        
     }
 
@@ -376,7 +377,8 @@ footer{
         margin: 0;
     }
     .some-facts {
-        padding: 50px;
+        padding: 0 50px 50px 50px;
+        margin-top: 0;
     }
     .sponsor{
         padding: 50px;
