@@ -367,9 +367,10 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
-    /* .teams-img img{
-        padding: 50px;
-    } */
+    .teams-img img{
+        height: 90%;
+    
+    }
 
     .feature{
         flex-direction: column;
