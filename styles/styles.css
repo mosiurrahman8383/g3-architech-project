@@ -113,10 +113,10 @@ main .teams-container ,.some-facts{
 
 }
 
-/* .teams-img img{
-    width: 100%;
-    height: 100%;
-} */
+.teams-img img{
+    /* width: 100%; */
+    height: 90%;
+}
 .teams-content {
     padding: 20px;
 }
@@ -367,6 +367,9 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
+    /* .teams-img img{
+        padding: 50px;
+    } */
 
     .feature{
         flex-direction: column;
